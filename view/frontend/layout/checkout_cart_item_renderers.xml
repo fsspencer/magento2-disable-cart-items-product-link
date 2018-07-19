@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="checkout.cart.item.renderers">
+            <referenceBlock name="checkout.cart.item.renderers.configurable">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+            <referenceBlock name="checkout.cart.item.renderers.bundle">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+            <referenceBlock name="checkout.cart.item.renderers.default">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+            <referenceBlock name="checkout.cart.item.renderers.downloadable">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+            <referenceBlock name="checkout.cart.item.renderers.virtual">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+            <referenceBlock name="checkout.cart.item.renderers.undefined">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+            <referenceBlock name="checkout.cart.item.renderers.giftcard">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+            <referenceBlock name="checkout.cart.item.renderers.grouped">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+            <referenceBlock name="checkout.cart.item.renderers.simple">
+                <action method="setIgnoreProductUrl">
+                    <argument name="ignore" xsi:type="boolean">true</argument>
+                </action>
+            </referenceBlock>
+        </referenceBlock>
+    </body>
+</page>
